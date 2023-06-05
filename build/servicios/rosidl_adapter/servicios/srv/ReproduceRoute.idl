@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from servicios/srv/ReproduceRoute.srv
+// generated code does not contain a copyright notice
+
+
+module servicios {
+  module srv {
+    struct ReproduceRoute_Request {
+      string file_path;
+    };
+    struct ReproduceRoute_Response {
+      string ruta;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+Invoking command in '/home/sergio/turtle_bot_11/build/servicios': CMAKE_PREFIX_PATH=/home/sergio/turtle_bot_11/install/turtle_bot_nodos:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake /home/sergio/turtle_bot_11/src/servicios -DCMAKE_INSTALL_PREFIX=/home/sergio/turtle_bot_11/install/servicios
+Invoked command in '/home/sergio/turtle_bot_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=/home/sergio/turtle_bot_11/install/turtle_bot_nodos:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake /home/sergio/turtle_bot_11/src/servicios -DCMAKE_INSTALL_PREFIX=/home/sergio/turtle_bot_11/install/servicios
+Invoking command in '/home/sergio/turtle_bot_11/build/servicios': CMAKE_PREFIX_PATH=/home/sergio/turtle_bot_11/install/turtle_bot_nodos:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/turtle_bot_11/build/servicios -- -j8 -l8
+Invoked command in '/home/sergio/turtle_bot_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=/home/sergio/turtle_bot_11/install/turtle_bot_nodos:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/turtle_bot_11/build/servicios -- -j8 -l8
+Invoking command in '/home/sergio/turtle_bot_11/build/servicios': CMAKE_PREFIX_PATH=/home/sergio/turtle_bot_11/install/turtle_bot_nodos:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/turtle_bot_11/build/servicios
+Invoked command in '/home/sergio/turtle_bot_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=/home/sergio/turtle_bot_11/install/turtle_bot_nodos:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/turtle_bot_11/build/servicios

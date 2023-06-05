@@ -1,0 +1,46 @@
+[0.653s] Invoking command in '/home/sergio/turtle_bot_11/src/turtle_bot_nodos': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/turtle_bot_11/build/nodos_taller_1/prefix_override:/home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nodos_taller_1 build --build-base /home/sergio/turtle_bot_11/build/nodos_taller_1/build install --record /home/sergio/turtle_bot_11/build/nodos_taller_1/install.log --single-version-externally-managed
+[0.844s] running egg_info
+[0.845s] creating ../../build/nodos_taller_1/turtle_bot_nodos.egg-info
+[0.857s] writing ../../build/nodos_taller_1/turtle_bot_nodos.egg-info/PKG-INFO
+[0.857s] writing dependency_links to ../../build/nodos_taller_1/turtle_bot_nodos.egg-info/dependency_links.txt
+[0.858s] writing requirements to ../../build/nodos_taller_1/turtle_bot_nodos.egg-info/requires.txt
+[0.858s] writing top-level names to ../../build/nodos_taller_1/turtle_bot_nodos.egg-info/top_level.txt
+[0.858s] writing manifest file '../../build/nodos_taller_1/turtle_bot_nodos.egg-info/SOURCES.txt'
+[0.884s] reading manifest file '../../build/nodos_taller_1/turtle_bot_nodos.egg-info/SOURCES.txt'
+[0.885s] writing manifest file '../../build/nodos_taller_1/turtle_bot_nodos.egg-info/SOURCES.txt'
+[0.885s] running build
+[0.885s] running build_py
+[0.885s] creating /home/sergio/turtle_bot_11/build/nodos_taller_1/build
+[0.885s] creating /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib
+[0.886s] creating /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos
+[0.886s] copying turtle_bot_nodos/turtle_bot_interface.py -> /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos
+[0.886s] copying turtle_bot_nodos/__init__.py -> /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos
+[0.886s] copying turtle_bot_nodos/turtle_bot_player.py -> /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos
+[0.886s] copying turtle_bot_nodos/turtle_bot_save_route.py -> /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos
+[0.886s] copying turtle_bot_nodos/turtle_bot_teleop.py -> /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos
+[0.887s] running install
+[0.907s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.907s]   warnings.warn(
+[0.912s] running install_lib
+[0.925s] creating /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos
+[0.925s] copying /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos/turtle_bot_interface.py -> /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos
+[0.925s] copying /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos/__init__.py -> /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos
+[0.925s] copying /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos/turtle_bot_player.py -> /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos
+[0.925s] copying /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos/turtle_bot_save_route.py -> /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos
+[0.926s] copying /home/sergio/turtle_bot_11/build/nodos_taller_1/build/lib/turtle_bot_nodos/turtle_bot_teleop.py -> /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos
+[0.926s] byte-compiling /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc
+[0.930s] byte-compiling /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos/__init__.py to __init__.cpython-310.pyc
+[0.930s] byte-compiling /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos/turtle_bot_player.py to turtle_bot_player.cpython-310.pyc
+[0.931s] byte-compiling /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos/turtle_bot_save_route.py to turtle_bot_save_route.cpython-310.pyc
+[0.931s] byte-compiling /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[0.932s] running install_data
+[0.945s] copying resource/turtle_bot_nodos -> /home/sergio/turtle_bot_11/install/nodos_taller_1/share/ament_index/resource_index/packages
+[0.945s] creating /home/sergio/turtle_bot_11/install/nodos_taller_1/share/turtle_bot_nodos
+[0.945s] copying package.xml -> /home/sergio/turtle_bot_11/install/nodos_taller_1/share/turtle_bot_nodos
+[0.946s] running install_egg_info
+[0.959s] Copying ../../build/nodos_taller_1/turtle_bot_nodos.egg-info to /home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info
+[0.960s] running install_scripts
+[1.105s] writing list of installed files to '/home/sergio/turtle_bot_11/build/nodos_taller_1/install.log'
+[1.132s] Invoked command in '/home/sergio/turtle_bot_11/src/turtle_bot_nodos' returned '0': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/turtle_bot_11/build/nodos_taller_1/prefix_override:/home/sergio/turtle_bot_11/install/nodos_taller_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nodos_taller_1 build --build-base /home/sergio/turtle_bot_11/build/nodos_taller_1/build install --record /home/sergio/turtle_bot_11/build/nodos_taller_1/install.log --single-version-externally-managed

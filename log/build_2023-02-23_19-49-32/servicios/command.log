@@ -1,0 +1,4 @@
+Invoking command in '/home/sergio/turtle_bot_11/build/servicios': CMAKE_PREFIX_PATH=/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/turtle_bot_11/build/servicios -- -j8 -l8
+Invoked command in '/home/sergio/turtle_bot_11/build/servicios' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/turtle_bot_11/build/servicios -- -j8 -l8

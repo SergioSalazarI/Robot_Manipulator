@@ -1,0 +1,169 @@
+[0.084s] Invoking command in '/home/sergio/turtle_bot_11/build/servicios': CMAKE_PREFIX_PATH=/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/turtle_bot_11/build/servicios -- -j8 -l8
+[0.855s] [  3%] Built target servicios__cpp
+[0.983s] [  3%] Built target ament_cmake_python_copy_servicios
+[1.039s] [ 12%] Built target servicios__rosidl_generator_c
+[1.064s] [ 22%] Built target servicios__rosidl_typesupport_c
+[1.092s] [ 32%] Built target servicios__rosidl_typesupport_introspection_cpp
+[1.092s] [ 41%] Built target servicios__rosidl_typesupport_cpp
+[1.095s] [ 51%] Built target servicios__rosidl_typesupport_fastrtps_cpp
+[1.139s] [ 61%] Built target servicios__rosidl_typesupport_introspection_c
+[1.169s] [ 70%] Built target servicios__rosidl_typesupport_fastrtps_c
+[1.191s] [ 70%] Built target servicios
+[1.192s] running egg_info
+[1.207s] writing servicios.egg-info/PKG-INFO
+[1.207s] writing dependency_links to servicios.egg-info/dependency_links.txt
+[1.208s] writing top-level names to servicios.egg-info/top_level.txt
+[1.249s] [ 74%] Built target servicios__py
+[1.253s] reading manifest file 'servicios.egg-info/SOURCES.txt'
+[1.254s] writing manifest file 'servicios.egg-info/SOURCES.txt'
+[1.277s] [ 74%] Built target ament_cmake_python_build_servicios_egg
+[1.445s] [ 80%] Built target servicios__rosidl_generator_py
+[1.480s] [100%] Built target servicios__rosidl_typesupport_fastrtps_c__pyext
+[1.481s] [100%] Built target servicios__rosidl_typesupport_c__pyext
+[1.481s] [100%] Built target servicios__rosidl_typesupport_introspection_c__pyext
+[1.490s] Invoked command in '/home/sergio/turtle_bot_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/turtle_bot_11/build/servicios -- -j8 -l8
+[1.545s] Invoking command in '/home/sergio/turtle_bot_11/build/servicios': CMAKE_PREFIX_PATH=/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/turtle_bot_11/build/servicios
+[1.552s] -- Install configuration: ""
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/rosidl_interfaces/servicios
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_generator_c__visibility_control.h
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/save_route.h
+[1.553s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__struct.h
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__type_support.h
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__functions.c
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__type_support.h
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__struct.h
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__functions.h
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__functions.c
+[1.554s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__functions.h
+[1.555s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/reproduce_route.h
+[1.555s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/library_path.sh
+[1.555s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/library_path.dsv
+[1.555s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_generator_c.so
+[1.555s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios
+[1.555s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_fastrtps_c.h
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_fastrtps_c.h
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_fastrtps_c.so
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios
+[1.556s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/reproduce_route.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__traits.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__struct.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__builder.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__struct.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__traits.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__builder.hpp
+[1.557s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/save_route.hpp
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/dds_fastrtps
+[1.558s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_fastrtps_cpp.hpp
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_fastrtps_cpp.so
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_introspection_c.h
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__type_support.c
+[1.559s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_introspection_c.h
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__type_support.c
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_introspection_c.so
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_c.so
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_introspection_cpp.hpp
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_introspection_cpp.hpp
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__type_support.cpp
+[1.560s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__type_support.cpp
+[1.561s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_introspection_cpp.so
+[1.578s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_cpp.so
+[1.578s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/pythonpath.sh
+[1.578s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/pythonpath.dsv
+[1.578s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info
+[1.578s] -- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.579s] -- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/top_level.txt
+[1.579s] -- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/PKG-INFO
+[1.579s] -- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.579s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios
+[1.579s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.579s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/libservicios__rosidl_generator_py.so
+[1.579s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.579s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/_servicios_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/__init__.py
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/_servicios_s.ep.rosidl_typesupport_c.c
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_reproduce_route.py
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/__init__.py
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_save_route_s.c
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_save_route.py
+[1.580s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_reproduce_route_s.c
+[1.581s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/_servicios_s.ep.rosidl_typesupport_introspection_c.c
+[1.616s] Listing '/home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios'...
+[1.616s] Listing '/home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv'...
+[1.621s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.622s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.623s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.624s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_generator_py.so
+[1.624s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute.idl
+[1.624s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute.srv
+[1.624s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute_Request.msg
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute_Response.msg
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/package_run_dependencies/servicios
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/parent_prefix_path/servicios
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/ament_prefix_path.sh
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/ament_prefix_path.dsv
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/path.sh
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/path.dsv
+[1.625s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.bash
+[1.626s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.sh
+[1.626s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.zsh
+[1.626s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.dsv
+[1.626s] -- Installing: /home/sergio/turtle_bot_11/install/servicios/share/servicios/package.dsv
+[1.626s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/packages/servicios
+[1.641s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_cExport.cmake
+[1.641s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_cExport-noconfig.cmake
+[1.641s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cExport.cmake
+[1.641s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.642s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_cppExport.cmake
+[1.643s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.643s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.643s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cExport.cmake
+[1.644s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.644s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cExport.cmake
+[1.644s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cExport-noconfig.cmake
+[1.645s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cppExport.cmake
+[1.645s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.645s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cppExport.cmake
+[1.645s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cppExport-noconfig.cmake
+[1.645s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_pyExport.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_pyExport-noconfig.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/rosidl_cmake-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_libraries-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_targets-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.646s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/serviciosConfig.cmake
+[1.647s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/serviciosConfig-version.cmake
+[1.647s] -- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/package.xml
+[1.658s] Invoked command in '/home/sergio/turtle_bot_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/turtle_bot_11/build/servicios

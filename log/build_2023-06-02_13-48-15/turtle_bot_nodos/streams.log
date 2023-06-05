@@ -1,0 +1,33 @@
+[3.619s] Invoking command in '/home/sergio/taller_2_grupo_11/src/turtle_bot_nodos': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/prefix_override:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build install --record /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log --single-version-externally-managed
+[3.839s] running egg_info
+[3.854s] writing ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/PKG-INFO
+[3.854s] writing dependency_links to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/dependency_links.txt
+[3.854s] writing entry points to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/entry_points.txt
+[3.855s] writing requirements to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/requires.txt
+[3.855s] writing top-level names to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/top_level.txt
+[3.887s] reading manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[3.923s] writing manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[3.923s] running build
+[3.923s] running build_py
+[3.923s] copying turtle_bot_nodos/robot_manipulator_teleop.py -> /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos
+[3.924s] running install
+[3.939s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.939s]   warnings.warn(
+[3.946s] running install_lib
+[3.973s] copying /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos/robot_manipulator_teleop.py -> /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos
+[3.973s] byte-compiling /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos/robot_manipulator_teleop.py to robot_manipulator_teleop.cpython-310.pyc
+[3.974s] running install_data
+[3.989s] running install_egg_info
+[4.004s] removing '/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info' (and everything under it)
+[4.004s] Copying ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info
+[4.025s] running install_scripts
+[4.232s] Installing robot_camera script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[4.232s] Installing robot_interface script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[4.232s] Installing robot_teleop_ script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[4.232s] Installing turtle_bot_player script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[4.233s] Installing turtle_bot_position script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[4.233s] Installing turtle_bot_save_route script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[4.233s] writing list of installed files to '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log'
+[4.263s] Invoked command in '/home/sergio/taller_2_grupo_11/src/turtle_bot_nodos' returned '0': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/prefix_override:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build install --record /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log --single-version-externally-managed

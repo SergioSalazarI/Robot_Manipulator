@@ -1,0 +1,32 @@
+[1.499s] Invoking command in '/home/sergio/taller_2_grupo_11/src/turtle_bot_nodos': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/prefix_override:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build install --record /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log --single-version-externally-managed
+[1.716s] running egg_info
+[1.731s] writing ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/PKG-INFO
+[1.732s] writing dependency_links to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/dependency_links.txt
+[1.732s] writing entry points to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/entry_points.txt
+[1.732s] writing requirements to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/requires.txt
+[1.732s] writing top-level names to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/top_level.txt
+[1.761s] reading manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[1.780s] writing manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[1.781s] running build
+[1.781s] running build_py
+[1.781s] copying turtle_bot_nodos/turtle_bot_teleop.py -> /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos
+[1.781s] running install
+[1.803s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.803s]   warnings.warn(
+[1.815s] running install_lib
+[1.843s] copying /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos/turtle_bot_teleop.py -> /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos
+[1.844s] byte-compiling /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[1.844s] Sorry: IndentationError: expected an indented block after function definition on line 39 (turtle_bot_teleop.py, line 42)
+[1.844s] running install_data
+[1.859s] running install_egg_info
+[1.874s] removing '/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info' (and everything under it)
+[1.874s] Copying ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info
+[1.893s] running install_scripts
+[2.050s] Installing turtle_bot_interface script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[2.050s] Installing turtle_bot_player script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[2.050s] Installing turtle_bot_save_route script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[2.050s] Installing turtle_bot_teleop_ script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[2.051s] writing list of installed files to '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log'
+[2.078s] Invoked command in '/home/sergio/taller_2_grupo_11/src/turtle_bot_nodos' returned '0': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/prefix_override:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build install --record /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log --single-version-externally-managed

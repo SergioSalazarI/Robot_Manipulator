@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.001290] (servicios) JobQueued: {'identifier': 'servicios', 'dependencies': OrderedDict()}
+[0.001376] (turtle_bot_nodos) JobQueued: {'identifier': 'turtle_bot_nodos', 'dependencies': OrderedDict()}
+[0.001396] (servicios) JobStarted: {'identifier': 'servicios'}
+[0.010950] (turtle_bot_nodos) JobStarted: {'identifier': 'turtle_bot_nodos'}
+[0.019060] (servicios) JobProgress: {'identifier': 'servicios', 'progress': 'cmake'}
+[0.069398] (servicios) JobProgress: {'identifier': 'servicios', 'progress': 'build'}
+[0.073285] (servicios) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sergio/taller_2_grupo_11/build/servicios', '--', '-j8', '-l8'], 'cwd': '/home/sergio/taller_2_grupo_11/build/servicios', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('USER', 'sergio'), ('LC_TIME', 'es_CO.UTF-8'), ('COMP_WORDBREAKS', '\n"\'><=;|&('), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HISTIGNORE', 'exit:ls:bg:fg:history:clear'), ('LESS', '-R'), ('HOME', '/home/sergio'), ('OLDPWD', '/home/sergio'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'es_CO.UTF-8'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sergio'), ('OSH', '/home/sergio/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sergio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sergio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sergio-Swift-SF314-56:@/tmp/.ICE-unix/1963,unix/sergio-Swift-SF314-56:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6c667c9_1512_44e0_b1e8_765ee847a2c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7DHQ51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sergio/taller_2_grupo_11/build/servicios'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.112240] (-) TimerEvent: {}
+[0.212914] (-) TimerEvent: {}
+[0.313406] (-) TimerEvent: {}
+[0.414258] (-) TimerEvent: {}
+[0.514956] (-) TimerEvent: {}
+[0.570889] (servicios) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/sergio/taller_2_grupo_11/build/servicios/CMakeCache.txt is different than the directory /home/sergio/turtle_bot_11/build/servicios where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.615057] (-) TimerEvent: {}
+[0.715423] (-) TimerEvent: {}
+[0.815755] (-) TimerEvent: {}
+[0.916454] (-) TimerEvent: {}
+[1.017229] (-) TimerEvent: {}
+[1.118115] (-) TimerEvent: {}
+[1.218674] (-) TimerEvent: {}
+[1.319729] (-) TimerEvent: {}
+[1.420694] (-) TimerEvent: {}
+[1.521693] (-) TimerEvent: {}
+[1.622742] (-) TimerEvent: {}
+[1.723750] (-) TimerEvent: {}
+[1.824645] (-) TimerEvent: {}
+[1.925567] (-) TimerEvent: {}
+[2.026558] (-) TimerEvent: {}
+[2.034689] (servicios) StdoutLine: {'line': b'[  3%] Built target servicios__cpp\n'}
+[2.126892] (-) TimerEvent: {}
+[2.227851] (-) TimerEvent: {}
+[2.329063] (-) TimerEvent: {}
+[2.429938] (-) TimerEvent: {}
+[2.530430] (-) TimerEvent: {}
+[2.631318] (-) TimerEvent: {}
+[2.732053] (-) TimerEvent: {}
+[2.832480] (-) TimerEvent: {}
+[2.894510] (servicios) StdoutLine: {'line': b'[ 12%] Built target servicios__rosidl_generator_c\n'}
+[2.932544] (-) TimerEvent: {}
+[2.972955] (servicios) StdoutLine: {'line': b'[ 22%] Built target servicios__rosidl_typesupport_c\n'}
+[2.979570] (servicios) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_copy_servicios\n'}
+[3.032126] (servicios) StdoutLine: {'line': b'[ 32%] Built target servicios__rosidl_typesupport_introspection_c\n'}
+[3.032653] (-) TimerEvent: {}
+[3.082082] (servicios) StdoutLine: {'line': b'[ 41%] Built target servicios__rosidl_typesupport_cpp\n'}
+[3.082400] (servicios) StdoutLine: {'line': b'[ 51%] Built target servicios__rosidl_typesupport_introspection_cpp\n'}
+[3.083094] (servicios) StdoutLine: {'line': b'[ 61%] Built target servicios__rosidl_typesupport_fastrtps_cpp\n'}
+[3.085035] (servicios) StdoutLine: {'line': b'[ 70%] Built target servicios__rosidl_typesupport_fastrtps_c\n'}
+[3.102788] (servicios) StdoutLine: {'line': b'[ 70%] Built target servicios\n'}
+[3.121716] (servicios) StdoutLine: {'line': b'[ 74%] Built target servicios__py\n'}
+[3.132787] (-) TimerEvent: {}
+[3.233295] (-) TimerEvent: {}
+[3.333959] (-) TimerEvent: {}
+[3.334898] (servicios) StdoutLine: {'line': b'running egg_info\n'}
+[3.350419] (servicios) StdoutLine: {'line': b'writing servicios.egg-info/PKG-INFO\n'}
+[3.350811] (servicios) StdoutLine: {'line': b'writing dependency_links to servicios.egg-info/dependency_links.txt\n'}
+[3.351229] (servicios) StdoutLine: {'line': b'writing top-level names to servicios.egg-info/top_level.txt\n'}
+[3.397132] (servicios) StdoutLine: {'line': b"reading manifest file 'servicios.egg-info/SOURCES.txt'\n"}
+[3.398106] (servicios) StdoutLine: {'line': b"writing manifest file 'servicios.egg-info/SOURCES.txt'\n"}
+[3.432285] (servicios) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_servicios_egg\n'}
+[3.434161] (-) TimerEvent: {}
+[3.534599] (-) TimerEvent: {}
+[3.535721] (servicios) StdoutLine: {'line': b'[ 80%] Built target servicios__rosidl_generator_py\n'}
+[3.610291] (servicios) StdoutLine: {'line': b'[ 93%] Built target servicios__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.610609] (servicios) StdoutLine: {'line': b'[ 93%] Built target servicios__rosidl_typesupport_introspection_c__pyext\n'}
+[3.611858] (servicios) StdoutLine: {'line': b'[100%] Built target servicios__rosidl_typesupport_c__pyext\n'}
+[3.623789] (servicios) CommandEnded: {'returncode': 0}
+[3.628680] (turtle_bot_nodos) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_bot_nodos', 'build', '--build-base', '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build', 'install', '--record', '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log', '--single-version-externally-managed'], 'cwd': '/home/sergio/taller_2_grupo_11/src/turtle_bot_nodos', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HISTFILESIZE': '', 'USER': 'sergio', 'LC_TIME': 'es_CO.UTF-8', 'COMP_WORDBREAKS': '\n"\'><=;|&(', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HISTIGNORE': 'exit:ls:bg:fg:history:clear', 'LESS': '-R', 'HOME': '/home/sergio', 'OLDPWD': '/home/sergio', 'DESKTOP_SESSION': 'ubuntu', 'LSCOLORS': 'Gxfxcxdxdxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'LC_MONETARY': 'es_CO.UTF-8', 'LC_CTYPE': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2047', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sergio', 'OSH': '/home/sergio/.oh-my-bash', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sergio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sergio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sergio-Swift-SF314-56:@/tmp/.ICE-unix/1963,unix/sergio-Swift-SF314-56:/tmp/.ICE-unix/1963', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a6c667c9_1512_44e0_b1e8_765ee847a2c6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'HISTSIZE': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7DHQ51', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/prefix_override:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.634660] (-) TimerEvent: {}
+[3.676653] (servicios) JobProgress: {'identifier': 'servicios', 'progress': 'install'}
+[3.684542] (servicios) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sergio/taller_2_grupo_11/build/servicios'], 'cwd': '/home/sergio/taller_2_grupo_11/build/servicios', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('USER', 'sergio'), ('LC_TIME', 'es_CO.UTF-8'), ('COMP_WORDBREAKS', '\n"\'><=;|&('), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HISTIGNORE', 'exit:ls:bg:fg:history:clear'), ('LESS', '-R'), ('HOME', '/home/sergio'), ('OLDPWD', '/home/sergio'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'es_CO.UTF-8'), ('LC_CTYPE', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sergio'), ('OSH', '/home/sergio/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sergio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sergio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sergio-Swift-SF314-56:@/tmp/.ICE-unix/1963,unix/sergio-Swift-SF314-56:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6c667c9_1512_44e0_b1e8_765ee847a2c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7DHQ51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sergio/taller_2_grupo_11/build/servicios'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.714457] (servicios) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.720056] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/rosidl_interfaces/servicios\n'}
+[3.720901] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios\n'}
+[3.721450] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg\n'}
+[3.722283] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.722674] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv\n'}
+[3.722840] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/save_route.h\n'}
+[3.722946] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail\n'}
+[3.723209] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__struct.h\n'}
+[3.723477] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__type_support.h\n'}
+[3.723591] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__functions.c\n'}
+[3.723695] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__type_support.h\n'}
+[3.723797] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__struct.h\n'}
+[3.723901] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__functions.h\n'}
+[3.724020] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__functions.c\n'}
+[3.724137] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__functions.h\n'}
+[3.724267] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/reproduce_route.h\n'}
+[3.724374] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/library_path.sh\n'}
+[3.724675] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/library_path.dsv\n'}
+[3.734749] (-) TimerEvent: {}
+[3.771513] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_generator_c.so\n'}
+[3.771832] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios\n'}
+[3.772023] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg\n'}
+[3.772294] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.772526] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv\n'}
+[3.772664] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail\n'}
+[3.772780] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_fastrtps_c.h\n'}
+[3.772892] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_fastrtps_c.h\n'}
+[3.773280] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_fastrtps_c.so\n'}
+[3.773555] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios\n'}
+[3.773826] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv\n'}
+[3.774040] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/reproduce_route.hpp\n'}
+[3.774206] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail\n'}
+[3.774327] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__traits.hpp\n'}
+[3.774441] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__struct.hpp\n'}
+[3.774622] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__builder.hpp\n'}
+[3.774753] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__struct.hpp\n'}
+[3.774872] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__traits.hpp\n'}
+[3.774987] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__builder.hpp\n'}
+[3.775108] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/save_route.hpp\n'}
+[3.775221] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios\n'}
+[3.775337] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg\n'}
+[3.775472] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.775585] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv\n'}
+[3.775767] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail\n'}
+[3.775884] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.775992] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/dds_fastrtps\n'}
+[3.776123] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.776349] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.776567] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios\n'}
+[3.776687] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg\n'}
+[3.776802] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.776928] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv\n'}
+[3.777046] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail\n'}
+[3.777180] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_introspection_c.h\n'}
+[3.777301] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__type_support.c\n'}
+[3.777419] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_introspection_c.h\n'}
+[3.777535] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__type_support.c\n'}
+[3.777645] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_introspection_c.so\n'}
+[3.777811] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_c.so\n'}
+[3.778065] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios\n'}
+[3.778384] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv\n'}
+[3.778559] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail\n'}
+[3.778677] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.778807] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.778920] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/save_route__type_support.cpp\n'}
+[3.779053] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/include/servicios/servicios/srv/detail/reproduce_route__type_support.cpp\n'}
+[3.779158] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_introspection_cpp.so\n'}
+[3.779636] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_typesupport_cpp.so\n'}
+[3.779877] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/pythonpath.sh\n'}
+[3.780053] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/pythonpath.dsv\n'}
+[3.780748] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info\n'}
+[3.780945] (servicios) StdoutLine: {'line': b'-- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.781148] (servicios) StdoutLine: {'line': b'-- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.781318] (servicios) StdoutLine: {'line': b'-- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.781455] (servicios) StdoutLine: {'line': b'-- Installing: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.781616] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios\n'}
+[3.781816] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.782046] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/libservicios__rosidl_generator_py.so\n'}
+[3.782177] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.782317] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/_servicios_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.782483] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.782596] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/__init__.py\n'}
+[3.782714] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/_servicios_s.ep.rosidl_typesupport_c.c\n'}
+[3.782826] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv\n'}
+[3.782944] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_reproduce_route.py\n'}
+[3.783069] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/__init__.py\n'}
+[3.783175] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_save_route_s.c\n'}
+[3.783289] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_save_route.py\n'}
+[3.783399] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv/_reproduce_route_s.c\n'}
+[3.783514] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/_servicios_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.834846] (-) TimerEvent: {}
+[3.849246] (turtle_bot_nodos) StdoutLine: {'line': b'running egg_info\n'}
+[3.864517] (turtle_bot_nodos) StdoutLine: {'line': b'writing ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/PKG-INFO\n'}
+[3.864859] (turtle_bot_nodos) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/dependency_links.txt\n'}
+[3.865233] (turtle_bot_nodos) StdoutLine: {'line': b'writing entry points to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/entry_points.txt\n'}
+[3.865486] (turtle_bot_nodos) StdoutLine: {'line': b'writing requirements to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/requires.txt\n'}
+[3.865693] (turtle_bot_nodos) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/top_level.txt\n'}
+[3.877125] (servicios) StdoutLine: {'line': b"Listing '/home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios'...\n"}
+[3.877396] (servicios) StdoutLine: {'line': b"Listing '/home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/srv'...\n"}
+[3.882416] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.883344] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.884355] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/local/lib/python3.10/dist-packages/servicios/servicios_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.885419] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/lib/libservicios__rosidl_generator_py.so\n'}
+[3.886901] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute.idl\n'}
+[3.887031] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute.srv\n'}
+[3.887725] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute_Request.msg\n'}
+[3.887925] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/srv/ReproduceRoute_Response.msg\n'}
+[3.888118] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/package_run_dependencies/servicios\n'}
+[3.888396] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/parent_prefix_path/servicios\n'}
+[3.888556] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/ament_prefix_path.sh\n'}
+[3.888709] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/ament_prefix_path.dsv\n'}
+[3.888837] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/path.sh\n'}
+[3.888948] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/environment/path.dsv\n'}
+[3.889068] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.bash\n'}
+[3.889167] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.sh\n'}
+[3.889261] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.zsh\n'}
+[3.889357] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/local_setup.dsv\n'}
+[3.889462] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/package.dsv\n'}
+[3.889557] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/ament_index/resource_index/packages/servicios\n'}
+[3.897657] (turtle_bot_nodos) StdoutLine: {'line': b"reading manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'\n"}
+[3.933361] (turtle_bot_nodos) StdoutLine: {'line': b"writing manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'\n"}
+[3.933629] (turtle_bot_nodos) StdoutLine: {'line': b'running build\n'}
+[3.933753] (turtle_bot_nodos) StdoutLine: {'line': b'running build_py\n'}
+[3.933965] (turtle_bot_nodos) StdoutLine: {'line': b'copying turtle_bot_nodos/robot_manipulator_teleop.py -> /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos\n'}
+[3.934494] (turtle_bot_nodos) StdoutLine: {'line': b'running install\n'}
+[3.934907] (-) TimerEvent: {}
+[3.949804] (turtle_bot_nodos) StderrLine: {'line': b'/home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.950172] (turtle_bot_nodos) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.955379] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_cExport.cmake\n'}
+[3.955596] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.956071] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.956283] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.956771] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_cppExport.cmake\n'}
+[3.957035] (turtle_bot_nodos) StdoutLine: {'line': b'running install_lib\n'}
+[3.957417] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.957626] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.958209] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.958430] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.958869] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cExport.cmake\n'}
+[3.959073] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.959543] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.959759] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.960059] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cppExport.cmake\n'}
+[3.960264] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/servicios__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.960476] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_pyExport.cmake\n'}
+[3.960684] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/export_servicios__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.960864] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/rosidl_cmake-extras.cmake\n'}
+[3.961036] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.961243] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.961430] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.961633] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.961855] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.962020] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.962252] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/serviciosConfig.cmake\n'}
+[3.962400] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/cmake/serviciosConfig-version.cmake\n'}
+[3.962544] (servicios) StdoutLine: {'line': b'-- Up-to-date: /home/sergio/turtle_bot_11/install/servicios/share/servicios/package.xml\n'}
+[3.965525] (servicios) CommandEnded: {'returncode': 0}
+[3.983478] (turtle_bot_nodos) StdoutLine: {'line': b'copying /home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos/robot_manipulator_teleop.py -> /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos\n'}
+[3.984253] (turtle_bot_nodos) StdoutLine: {'line': b'byte-compiling /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos/robot_manipulator_teleop.py to robot_manipulator_teleop.cpython-310.pyc\n'}
+[3.984822] (turtle_bot_nodos) StdoutLine: {'line': b'running install_data\n'}
+[3.999539] (turtle_bot_nodos) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.014773] (turtle_bot_nodos) StdoutLine: {'line': b"removing '/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.015116] (turtle_bot_nodos) StdoutLine: {'line': b'Copying ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info\n'}
+[4.035430] (-) TimerEvent: {}
+[4.035805] (turtle_bot_nodos) StdoutLine: {'line': b'running install_scripts\n'}
+[4.135542] (-) TimerEvent: {}
+[4.206031] (servicios) JobEnded: {'identifier': 'servicios', 'rc': 0}
+[4.235691] (-) TimerEvent: {}
+[4.242570] (turtle_bot_nodos) StdoutLine: {'line': b'Installing robot_camera script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos\n'}
+[4.242883] (turtle_bot_nodos) StdoutLine: {'line': b'Installing robot_interface script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos\n'}
+[4.243128] (turtle_bot_nodos) StdoutLine: {'line': b'Installing robot_teleop_ script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos\n'}
+[4.243295] (turtle_bot_nodos) StdoutLine: {'line': b'Installing turtle_bot_player script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos\n'}
+[4.243429] (turtle_bot_nodos) StdoutLine: {'line': b'Installing turtle_bot_position script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos\n'}
+[4.243556] (turtle_bot_nodos) StdoutLine: {'line': b'Installing turtle_bot_save_route script to /home/sergio/taller_2_grupo_11/install/turtle_bot_nodos/lib/turtle_bot_nodos\n'}
+[4.243871] (turtle_bot_nodos) StdoutLine: {'line': b"writing list of installed files to '/home/sergio/taller_2_grupo_11/build/turtle_bot_nodos/install.log'\n"}
+[4.273133] (turtle_bot_nodos) CommandEnded: {'returncode': 0}
+[4.282944] (turtle_bot_nodos) JobEnded: {'identifier': 'turtle_bot_nodos', 'rc': 0}
+[4.283661] (-) EventReactorShutdown: {}

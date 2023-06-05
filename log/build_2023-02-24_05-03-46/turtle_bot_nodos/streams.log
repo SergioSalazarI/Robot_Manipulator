@@ -1,0 +1,31 @@
+[0.811s] Invoking command in '/home/sergio/turtle_bot_11/src/turtle_bot_nodos': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/turtle_bot_11/build/turtle_bot_nodos/prefix_override:/home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/turtle_bot_11/build/turtle_bot_nodos/build install --record /home/sergio/turtle_bot_11/build/turtle_bot_nodos/install.log --single-version-externally-managed
+[1.021s] running egg_info
+[1.036s] writing ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/dependency_links.txt
+[1.037s] writing entry points to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/entry_points.txt
+[1.037s] writing requirements to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/requires.txt
+[1.037s] writing top-level names to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/top_level.txt
+[1.069s] reading manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[1.070s] writing manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[1.070s] running build
+[1.070s] running build_py
+[1.071s] copying turtle_bot_nodos/turtle_bot_player.py -> /home/sergio/turtle_bot_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos
+[1.071s] running install
+[1.071s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.071s]   warnings.warn(
+[1.076s] running install_lib
+[1.090s] copying /home/sergio/turtle_bot_11/build/turtle_bot_nodos/build/lib/turtle_bot_nodos/turtle_bot_player.py -> /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos
+[1.091s] byte-compiling /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos/turtle_bot_player.py to turtle_bot_player.cpython-310.pyc
+[1.092s] running install_data
+[1.107s] running install_egg_info
+[1.122s] removing '/home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info' (and everything under it)
+[1.123s] Copying ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info
+[1.124s] running install_scripts
+[1.290s] Installing turtle_bot_interface script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.290s] Installing turtle_bot_player script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.290s] Installing turtle_bot_save_route script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.290s] Installing turtle_bot_teleop_ script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.291s] writing list of installed files to '/home/sergio/turtle_bot_11/build/turtle_bot_nodos/install.log'
+[1.320s] Invoked command in '/home/sergio/turtle_bot_11/src/turtle_bot_nodos' returned '0': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/turtle_bot_11/build/turtle_bot_nodos/prefix_override:/home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/turtle_bot_11/build/turtle_bot_nodos/build install --record /home/sergio/turtle_bot_11/build/turtle_bot_nodos/install.log --single-version-externally-managed

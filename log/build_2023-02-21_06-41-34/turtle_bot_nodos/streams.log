@@ -1,0 +1,26 @@
+[0.701s] Invoking command in '/home/sergio/turtle_bot_11/src/turtle_bot_nodos': COMP_WORDBREAKS=
+"'><=;|&( PYTHONPATH=/home/sergio/turtle_bot_11/build/turtle_bot_nodos/prefix_override:/home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_nodos build --build-base /home/sergio/turtle_bot_11/build/turtle_bot_nodos/build install --record /home/sergio/turtle_bot_11/build/turtle_bot_nodos/install.log --single-version-externally-managed
+[0.905s] running egg_info
+[0.920s] writing ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/PKG-INFO
+[0.920s] writing dependency_links to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/dependency_links.txt
+[0.920s] writing entry points to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/entry_points.txt
+[0.920s] writing requirements to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/requires.txt
+[0.921s] writing top-level names to ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/top_level.txt
+[0.947s] reading manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[0.948s] writing manifest file '../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info/SOURCES.txt'
+[0.948s] running build
+[0.948s] running build_py
+[0.949s] running install
+[0.949s] /home/sergio/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.949s]   warnings.warn(
+[0.954s] running install_lib
+[0.967s] running install_data
+[0.979s] copying package.xml -> /home/sergio/turtle_bot_11/install/turtle_bot_nodos/share/turtle_bot_nodos
+[0.979s] running install_egg_info
+[0.992s] removing '/home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info' (and everything under it)
+[0.992s] Copying ../../build/turtle_bot_nodos/turtle_bot_nodos.egg-info to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/python3.10/site-packages/turtle_bot_nodos-0.0.0-py3.10.egg-info
+[0.993s] running install_scripts
+[1.146s] Installing turtle_bot_interface script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.147s] Installing turtle_bot_player script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.147s] Installing turtle_bot_teleop_ script to /home/sergio/turtle_bot_11/install/turtle_bot_nodos/lib/turtle_bot_nodos
+[1.147s] writing list of installed files to '/home/sergio/turtle_bot_11/build/turtle_bot_nodos/install.log'

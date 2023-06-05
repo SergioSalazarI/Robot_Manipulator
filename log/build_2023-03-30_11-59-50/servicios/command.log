@@ -1,0 +1,8 @@
+Invoking command in '/home/sergio/taller_2_grupo_11/build/servicios': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos:/home/sergio/install/nodos_taller_1:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/taller_2_grupo_11/build/servicios -- -j8 -l8
+Invoked command in '/home/sergio/taller_2_grupo_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos:/home/sergio/install/nodos_taller_1:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --build /home/sergio/taller_2_grupo_11/build/servicios -- -j8 -l8
+Invoking command in '/home/sergio/taller_2_grupo_11/build/servicios': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos:/home/sergio/install/nodos_taller_1:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/taller_2_grupo_11/build/servicios
+Invoked command in '/home/sergio/taller_2_grupo_11/build/servicios' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/taller_2_grupo_11/install/turtle_bot_nodos:/home/sergio/install/nodos_taller_1:/opt/ros/humble COMP_WORDBREAKS=
+"'><=;|&( /usr/bin/cmake --install /home/sergio/taller_2_grupo_11/build/servicios
